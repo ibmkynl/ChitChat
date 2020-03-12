@@ -1,0 +1,56 @@
+name: chitchat
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_bloc: ^0.11.0
+  firebase_storage: ^3.1.0
+  firebase_core: ^0.4.3+1
+  cloud_firestore: ^0.13.0+1
+  firebase_auth: ^0.15.3
+  equatable: ^1.0.3
+  meta: ^1.1.6
+  cupertino_icons: ^0.1.2
+  bottom_navy_bar: ^5.3.2
+  modal_progress_hud: ^0.1.3
+  font_awesome_flutter: ^8.7.0
+  geolocator: ^5.3.0
+  file_picker: ^1.4.3+2
+  flutter_native_image: ^0.0.4
+  language_pickers: ^0.1.3
+  flutter_country_picker: ^0.1.6
+  flutter_datetime_picker: ^1.3.4
+  network_to_file_image: ^2.2.4
+  extended_image: ^0.7.1
+  eva_icons_flutter: ^2.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/profilephoto.png
+    - assets/world_gif.webp
+
+  uses-material-design: true
+  fonts:
+    - family: Coiny
+      fonts:
+        - asset: fonts/Coiny-Regular.ttf
