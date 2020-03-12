@@ -1,6 +1,6 @@
-# chitchat
+# ChitChat
 
-A new Flutter application.
+it's simple dating app using firebase as database. For running this app you need to add your firebase .Json file under the Android/App/ folder.
 
 ## Getting Started
 
